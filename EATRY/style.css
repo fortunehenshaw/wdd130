@@ -1,0 +1,499 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    background: red;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+    color: yellow;
+    margin-LEFT: 60px;
+    padding-top: 30px;
+
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+.navBar{
+    width: 70%;
+    height: 100px;
+    /* background: black; */
+    float: right;
+    margin-right: 20px;
+    margin-top: -100px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    margin-left: 400px;
+}
+
+
+.navBar li{
+    float: left;
+    padding: 40px;
+    margin-top: 7px;
+
+}
+
+.navBar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.navBar a:hover{
+    border-bottom: 4px solid white;
+
+}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    /* background: black; */
+
+}
+
+.l-slider{
+    width: 50%;
+    height: 100%;
+    /* background: red */
+}
+
+.r-slider{
+    width: 50%;
+    height: 110%;
+    /* background: blue; */
+    float: right;
+    margin-top: -450px;
+
+}
+/* @keyframes spin{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+.slider-text1{
+    padding-top: 150px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    padding-left: 100px;
+
+}
+
+.slider-text2{
+    padding-top: 20px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    padding-left: 100px;
+
+}
+
+button{
+    margin-left: 100px;
+    margin-top: 20PX;
+    padding: 20px;
+    background: yellowgreen;
+    color:#ffffff;
+    border: none;
+    border-radius: 2em 0em;
+}
+
+.Menu{
+    width: 100%;
+    height: 750px;
+    /* background: #000; */
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+    color: yellowgreen;
+}
+
+.menucontent{
+    width: 80%;
+    height: 300px;
+    /* background: red; */
+    margin-left: 9%;
+    margin-top: 30px;
+}
+
+@keyframes zoom{
+    0%{
+
+    }
+    25%{
+        transform: rotateX(360deg);
+
+    }
+    50%{
+        transition: 6s linear;
+        transform: rotateY(360deg);
+        scale: 1.2;
+
+    }
+    100%{
+
+    }
+}
+.l-menu{
+    width: 30%;
+    height: 300px;
+    /* background: blue; */
+    background-image: url(assets/images/Food.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+
+}
+
+.l-menu:hover{
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+.c-menu{
+    width: 30%;
+    height: 300px;
+    /* background: green; */
+    background-image: url(assets/images/Protein.jpg);
+    margin-left: 440px;
+    margin-top: -300px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+
+
+}
+
+.c-menu:hover{
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+.r-menu{
+    width: 30%;
+    height: 300px;
+    /* background: yellow; */
+    background-image: url(assets/images/Pastries.jpg);
+    float: right;
+    margin-top: -300PX;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+
+}
+
+.r-menu:hover{
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+.m-text1{
+    text-align: center;
+    padding-top: 250px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.m-text2{
+    text-align: center;
+    padding-top: 250px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.m-text3{
+    text-align: center;
+    padding-top: 250px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.l-menu2{
+    width: 30%;
+    height: 300px;
+    /* background: blue; */
+    background-image: url(assets/images/Cakes.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+
+}
+.l-menu2:hover{
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+.c-menu2{
+    width: 30%;
+    height: 300px;
+    /* background: green; */
+    background-image: url(assets/images/Shawarma.jpg);
+    margin-left: 440px;
+    margin-top: -300px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+
+
+}
+
+.c-menu2:hover{
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+.r-menu2{
+    width: 30%;
+    height: 300px;
+    /* background: yellow; */
+    background-image: url(assets/images/Bread.jpg);
+    float: right;
+    margin-top: -300PX;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+}
+.r-menu2:hover{
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+form{
+    width: 55% ;
+    height: 570px;
+    background: red;
+    margin-left: 320px;
+    padding-left: 70px;
+    padding-top: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+.input-a{
+    width: 780px;
+    height:50px ;
+    
+}
+
+.input-b{
+    width: 300px;
+    height: 50px;
+}
+
+label{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.label-b{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.radiostyle{
+    width: 20px;
+    height: 20px;
+}
+
+.formSection{
+    width: 85%;
+    height: 100px;
+    /* background: black; */
+}
+
+.l-formSection{
+    width: 50%;
+    height: 100px;
+    /* background: green; */
+
+}
+
+  
+
+.orderbutton{
+    background: yellow;
+    color: red;
+    margin-left: 350px;
+    margin-top: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 2em 0em;
+}
+
+.r-gallery{
+    width: 20%;
+    height: 200px;
+    /* background: blue; */
+    background-image: url(assets/images/chicken\ republic.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5em;
+    margin-left: 200px;
+    margin-top: 50px;
+
+
+}
+
+.m-gallery{
+    width: 20%;
+    height: 200px;
+    /* background: blue; */
+    background-image: url(assets/images/kevin\ hart.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5em;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+
+.l-gallery{
+    width: 20%;
+    height: 200px;
+    /* background: blue; */
+    background-image: url(assets/images/restaurant\ counter.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5em;
+    margin-left: 1100px;
+    margin-top: -200px;
+}
+
+.gallery{
+    width: 100%;
+    height: 750px;
+    /* background: #000; */
+    margin-top: 30px;
+}
+.r-gallery2{
+    width: 20%;
+    height: 200px;
+    /* background: blue; */
+    background-image: url(assets/images/restaurant\ snack.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5em;
+    margin-left: 200px;
+    margin-top: 50px;
+
+
+}
+
+.m-gallery2{
+    width: 20%;
+    height: 200px;
+    /* background: blue; */
+    background-image: url(assets/images/chicken\ republic.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5em;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+
+.l-gallery2{
+    width: 20%;
+    height: 200px;
+    /* background: blue; */
+    background-image: url(assets/images/restaurant\ snack.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5em;
+    margin-left: 1100px;
+    margin-top: -200px;
+}
+
+.R-formSection{
+    width: 50%;
+    height: 100px;
+    float: right;
+    margin-top: -20px;
+    /* background: blue; */
+}
+
+/* .orderbutton2{
+    margin-left: 100px;
+    margin-top: 20PX;
+    padding: 20px;
+    background: yellowgreen;
+    color:#ffffff;
+    border: none;
+    border-radius: 2em 0em;
+    /* align-content: center; */
+
+.orderbutton2{
+    background: yellow;
+    color: red;
+    margin-left: 700px;
+    margin-top: -1000px;
+    padding: 20px;
+    border: none;
+    border-radius: 2em 0em;
+}
