@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE EATRY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">EATERY</div>
+
+            <nav class="navBar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#menusection">Menu</a></li>
+                    <li><a href="#ordersection">Order</a></li>
+                    <li><a href="#gallerysection">Gallery</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main>
+        <div class="slider">
+            <div class="l-sliderr">
+                <p class="slider-text1">Welcome To Eatery...</p>
+                <p class="slider-text2">...WHERE HUNGER IS DEFEATED</p>
+                <button class="s-button">Order Now</button>
+            </div>
+            <div class="r-slider">
+                <img src="assets/images/popcorn.jpg" alt="Lady eating popcorn" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div class="Menu" id="menusection">
+            <h1>Our Menu</h1>
+            <div class="menucontent">
+                <div class="l-menu"><p class="m-text1">FOOD</p></div>
+            <div class="c-menu"><p class="m-text2">PROTEIN</p></div>
+            <div class="r-menu"><p class="m-text3">PASTRIES</p></div>
+            </div>
+          
+            <div class="menucontent">
+                <div class="l-menu2"><p class="m-text1">CAKE</p></div>
+            <div class="c-menu2"><p class="m-text2">SHAWARMA</p></div>
+            <div class="r-menu2"><p class="m-text3">BREAD</p></div>
+            </div>
+        </div>
+
+        <div class="order" id="ordersection">
+            <h1>Place an order</h1>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" class="input-a"> 
+                <br><br>
+                <label for="address">Address</label><br>
+                <input type="text" name="address" class="input-a"> 
+                <br><br>
+
+                <div class="formsection">
+                    <div class="l-formsection">
+                <label for="phone">Phone number</label><br>
+                <input type="tel" name="phone" class="input-b">
+                </div>
+
+                <div class="r-formSection">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" class="input-b">
+                </div>
+
+                </div>
+                <br>
+
+                <!-- <label for="gender">Gender</label>
+                <label for="male">Male</label>
+                <input type="radio" name="male">
+                <label for="female">Female</label>
+                <input type="radio" name="female">
+                <br> -->
+<!-- 
+                <label for="mealtype">Meal Type</label>
+                <select name="" id="">
+                    <option value="">Select meal type</option>
+                    <option value="">Food</option>
+                    <option value="">Protein</option>
+                    <option value="">Pastries</option>
+                    <option value="">cakes</option>
+                    <option value="">Shawarma</option>
+                    <option value="">Bread</option>
+                </select>
+                <br> -->
+
+                    <label for="mealtype">MEALTYPE</label>
+                <select class="input-a">
+                    <option value="">Select food </option>
+                    <option value="">Fried Rice with Chicken</option>
+                    <option value="">Jollof Rice with Turkey</option>
+                    <option value="">Peppered Chicken</option>
+                    <option value="">Spaghetti</option>
+                    <option value="">Garri with Afang</option>
+                    <option value="">Pounded Yam with white soup</option>
+                    <option value="">Fried Rice with Chicken</option>
+                    <option value="">Jollof Rice with Turkey</option>
+                    <option value="">Peppered Chicken</option>
+                    <option value="">Spaghetti</option>
+                    <option value="">Garri with Afang</option>
+                    <option value="">Pounded Yam with white soup</option>
+                </select>
+                <br><br>
+
+                <div>
+                    <div class="l-formSection">
+                        <label for="quantity">Quantity</label><br>
+                        <input type="number" name="quantity" max="99" min="1" class="input-b">
+
+                        
+                    </div>
+                    <div class="r-formSection">
+                        <label for="paymentmethod">Payment Method</label> <br>
+                        <label for="ondelivery" class="label-b">On Delivery</label>
+                        <input type="radio" name="ondelivery" class="radiostyle">
+
+                        <label for="beforedelivery" class="label-b"> Before Delivery</label>
+                        <input type="radio" name="beforedelivery" class="radiostyle"> <br>
+
+                    </div>
+                </div>
+
+                <button class="orderbutton">Order</button>
+            </form>
+
+        </div>
+        <div class="gallery" id="gallerysection">
+            <h1>Gallery</h1>
+            <div class="gallerycontent">
+                <div class="r-gallery"></div>
+                 <div class="m-gallery"></div>
+                   <div class="l-gallery"></div>
+                    <div class="r-gallery2"></div>
+                 <div class="m-gallery2"></div>
+                   <div class="l-gallery2"></div>
+                   
+            </div>
+
+        </div>
+        <div class="contact" id="contactsection">
+            <h1>Contact Us</h1>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" class="input-a"> 
+                <br><br>
+                <label for="address">Address</label><br>
+                <input type="text" name="address" class="input-a"> 
+                <br><br>
+
+                <div class="formsection">
+                    <div class="l-formsection">
+                <label for="phone">Phone number</label><br>
+                <input type="tel" name="phone" class="input-b">
+                </div>
+
+                <div class="r-formSection">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" class="input-b">
+                </div>
+                 <!-- <textarea name="message" id="message" rows="6" cols="30" placeholder="message" required></textarea> -->
+
+                </div>
+                <br>
+
+                <!-- <label for="gender">Gender</label>
+                <label for="male">Male</label>
+                <input type="radio" name="male">
+                <label for="female">Female</label>
+                <input type="radio" name="female">
+                <br> -->
+<!-- 
+                <label for="mealtype">Meal Type</label>
+                <select name="" id="">
+                    <option value="">Select meal type</option>
+                    <option value="">Food</option>
+                    <option value="">Protein</option>
+                    <option value="">Pastries</option>
+                    <option value="">cakes</option>
+                    <option value="">Shawarma</option>
+                    <option value="">Bread</option>
+                </select>
+                <br> -->
+
+                    <!-- <label for="mealtype">MEALTYPE</label>
+                <select class="input-a">
+                    <option value="">Select food </option>
+                    <option value="">Fried Rice with Chicken</option>
+                    <option value="">Jollof Rice with Turkey</option>
+                    <option value="">Peppered Chicken</option>
+                    <option value="">Spaghetti</option>
+                    <option value="">Garri with Afang</option>
+                    <option value="">Pounded Yam with white soup</option>
+                    <option value="">Fried Rice with Chicken</option>
+                    <option value="">Jollof Rice with Turkey</option>
+                    <option value="">Peppered Chicken</option>
+                    <option value="">Spaghetti</option>
+                    <option value="">Garri with Afang</option>
+                    <option value="">Pounded Yam with white soup</option>
+                </select> -->
+                <br><br>
+
+                <div>
+                    <!-- <div class="l-formSection">
+                        <label for="quantity">Quantity</label><br>
+                        <input type="number" name="quantity" max="99" min="1" class="input-b"> -->
+
+                        
+                    </div>
+                    <div class="R-formSection">
+                        <label for="paymentmethod">Have you rated us?</label> <br>
+                        <label for="ondelivery" class="label-b">Yes</label>
+                        <input type="radio" name="ondelivery" class="radiostyle">
+
+                        <label for="beforedelivery" class="label-b"> No</label>
+                        <input type="radio" name="beforedelivery" class="radiostyle"> <br>
+
+                    </div>
+                </div>
+
+                <button class="orderbutton2">Order Now</button>
+            </form>
+
+           
+
+    
+    </main>
+</body>
+</html>
